@@ -1,0 +1,38 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        
+        body{
+            background-color:rgb(200,210,220);
+            padding-left: 50px;
+        }  
+        p{
+            font-size:1.3em;
+            padding: 1em;
+            
+            
+        }
+        
+        
+        h1,h2,h3,h4,h5,h6,
+        p {
+            padding-left: 50px;            
+        }
+        
+        main p {
+            background-color:rgb(220,230,240);
+                
+        }
+        
+        h2,p {
+           font-family: Arial; 
+        }
+        
+        footer {
+            color:#fff;
+            background-color:rgb(20,30,40);
+            font-size:0.9em;
+        }
+           
