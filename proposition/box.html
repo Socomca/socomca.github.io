@@ -7,6 +7,8 @@
         
         div {
             margin: 1px;
+            color: #fff;
+            font-size: 4vw;
         }
         
         .box {
@@ -19,8 +21,31 @@
           background-color: rgb(160,170,180);  
         }
         
-    </style>    
+/*Overlay*/
         
+        .overlay{
+            position: relative;
+            height: 50vw;
+        }
+        
+        .overlay .box,
+        .overlay p {
+            position: absolute;
+        }
+        
+        .overlay .box-1{        
+           z-index: 10;
+            left: 50vw;
+            top: 20vw;
+        }
+        
+        .overlay .box-2{        
+           z-index: 10;
+            margin: 10vw 0 0 40vw;
+        }
+    </style>    
+      
+
 
         
     </head>
