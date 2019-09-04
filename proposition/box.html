@@ -26,7 +26,7 @@
         .overlay{
             position: relative;
             height: 50vw;
-        }
+            }
         
         .overlay .box,
         .overlay p {
@@ -43,6 +43,13 @@
            z-index: 10;
             margin: 10vw 0 0 40vw;
         }
+        
+/*Side By Side*/ 
+        
+        .flex-wrapper{
+            display: flex;
+        }                    
+        
     </style>    
       
 
@@ -69,6 +76,7 @@
         <div class="container side-by-side">
             <p>Sid By Side</p>
             
+            <div class="flex-wrapper">           
             <div class="box box-1">
                 <p>Box 1</p>                
             </div>
@@ -76,7 +84,8 @@
             <div class="box box-2">
                 <p>Box 2</p>            
             </div>
-        
+        </div><!--.flex-wrapper-->
+            
         </div>        
     
     
