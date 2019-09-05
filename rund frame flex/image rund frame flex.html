@@ -2,7 +2,7 @@
 
 <html lang="de">
     <head>
-    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Images in a Round Frame</title>
 
         <style>
@@ -46,12 +46,12 @@
                 width: 30vw;
             }
             
+            h1,
             .content-module-wrapper {
                 margin: 20px 1vw; 
             }
             
             .info-wrapper {
-                /*background-color: greenyellow;*/ 
                 padding: 1em 1em 0 2em;
             }
             
@@ -78,6 +78,7 @@
                     height: 40vw;
                 }    
                 
+                h1,
                 .content-module-wrapper {
                 margin: 20px 3.5vw; 
             }
@@ -97,6 +98,11 @@
             @media only screen and (max-width: 600px) {
                 
                 
+                body {
+                    font-size: 1.5em;
+                }
+                
+                
                 .img-wrapper,
                 .content-module-wrapper {
                     width: 90vw;
@@ -107,6 +113,7 @@
                     height: 90vw;
                 }    
                 
+                h1,
                 .content-module-wrapper {
                 margin: 20px 7.5vw 0 2.5vw; 
             }
@@ -116,6 +123,10 @@
                 height: 130%;
                 left: -69vw;
                 top: -7vw;
+            }  
+                
+            .info-wrapper {
+                padding: 1em 10px 0 10px;
             }                
                 
             }            
@@ -125,6 +136,8 @@
     </head>
     
     <body>
+        
+        <h1>Responsive Flex Layout, Desktop First</h1>
         
         
         <div class="content-wrapper">
